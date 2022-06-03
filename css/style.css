@@ -1,0 +1,230 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+button {
+    border: none;
+}
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8vw;
+    line-height: 1.25;
+    padding-top: 2vh;
+}
+.header {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    height: 5vh;
+}
+.logo {
+    max-width: 10%;
+    height: auto;
+    margin-right: 1.5vw;
+}
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+.nav-item {
+    margin-right: 20px;
+    color: #000000;
+}
+.nav-btn {
+    position: absolute;
+    right: 50px;
+    top: 2vh;
+    position: absolute;
+    width: 15vw;
+    height: 47px;
+    background: #079FD0;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    padding-top: 2vh;
+    height: 95vh;
+}
+.main-container {
+    max-width: 83%;
+    height: auto;
+    background-color: #C4C4C4AD;
+    padding-bottom: 10vh;
+}
+.main-wrapper {
+    padding-top: 7vh;
+    padding-left: 8.4vw;
+}
+.main-title {
+    font-weight: 400;
+    font-size: 20vw;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+.main-aftertitle{
+    font-size: 3.8vw;
+    line-height: 1;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    max-width: 32vw;
+    margin-bottom: 4vh;
+}
+.main-text {
+    font-weight: 600;
+    font-size: 1.7vw;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.8);
+}
+.main-img {
+    position: absolute;
+    top: 17vh;
+    right: 50px;
+    max-width: 40%;
+    height: auto;
+}
+.advantages {
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.advantages-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-wrapper:not(:last-child) {
+    margin-bottom: 110px;
+}
+.advantages-image {
+    max-width: 50%;
+    height: auto;
+}
+.advantages-title {
+    font-weight: 400;
+    font-size: 3.3vw;
+    line-height: 1.04;
+    color: #079FD0;
+    margin-bottom: 40px;
+}
+.advantages-about {
+    font-weight: 300;
+    font-size: 1.7vw;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    
+}
+.right {
+    margin-left: 135px;
+}
+.left {
+    padding-left: 110px;
+    margin-right: 135px;
+}
+.link {
+    color: #079FD0;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    line-height: 1.94;
+}
+.possibiliteis {
+    padding: 110px 50px 65px;
+}
+.possibiliteis-title {
+    font-weight: 400;
+    font-size: 3.3vw;
+    line-height: 1.04;
+    text-align: center;
+    color: #079FD0;
+    margin-bottom: 100px;
+}
+.possibiliteis-list {
+    display: flex;
+    justify-content: space-between;
+}
+.possibility-item {
+    max-width: 30%;
+}
+.possibility-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.possibility-title {
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.2;
+    color: #079FD0;
+    display: block;
+    max-width: 90%;
+    margin-bottom: 40px;
+}
+.possibility-text {
+    font-weight: 300;
+    font-size: 1.4vw;
+    line-height: 1.5;
+    display: block;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+.footer {
+    padding: 50px;
+    background-color: #C4C4C433;
+    display: flex;
+}
+.footer-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 14vw;
+}
+.footer-item {
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height:2.5;
+}
+.footer-item:not(:last-child) {
+    margin-right: 7vw;
+}
+.footer-rights {
+    padding-top: 10px;
+    margin-left: 14vw;
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 1.25;
+}
+.footer .logo {
+    height: 3.3vh;
+}
